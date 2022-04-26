@@ -8,7 +8,7 @@ addresses of network interfaces easier.
 
 ----
 
-## How to use it
+How to use it
 
 ## Set Random MAC address
  
@@ -18,13 +18,15 @@ macchanger -r wlan0
 ifconfig wlan0 up
 ```
 
-## Set original, permanent hardware address.
+## Reset to original, permanent hardware MAC
 
 ```
 ifconfig wlan0 down
 macchanger -r wlan0 
 ifconfig wlan0 up
 ```
+
+* Note, some people believe you may or may not have to bring down and up the interface after each change or, restart the network service in Debian. RedHat, CentOS may differ.
 
 If using ethernet replace wlan0 with eth0 or eno1 or whatever interface name is used. "ifconfig" is your friend.
 
