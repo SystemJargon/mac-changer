@@ -8,9 +8,9 @@ addresses of network interfaces easier.
 
 ----
 
-How to use it
+## How to use it
 
-## Set Random MAC address
+Set Random MAC address
  
 ```
 ifconfig wlan0 down
@@ -18,7 +18,7 @@ macchanger -r wlan0
 ifconfig wlan0 up
 ```
 
-## Reset to original, permanent hardware MAC
+Reset to original, permanent hardware MAC
 
 ```
 ifconfig wlan0 down
@@ -26,9 +26,12 @@ macchanger -r wlan0
 ifconfig wlan0 up
 ```
 
+
+
+* If using ethernet replace wlan0 with eth0 or eno1 or whatever interface name is used. "ifconfig" is your friend.
+
 * Note, some people believe you may or may not have to bring down and up the interface after each change or, restart the network service in Debian. RedHat, CentOS may differ.
 
-If using ethernet replace wlan0 with eth0 or eno1 or whatever interface name is used. "ifconfig" is your friend.
 
 ----
 
@@ -55,7 +58,7 @@ Report bugs to https://github.com/alobbs/macchanger/issues
 ```
 ----
 
-Further Links
+## Further Links
 
 [GNU macchanger Author](https://github.com/alobbs/macchanger) - LEGEND!
 
@@ -67,7 +70,7 @@ Further Links
 
 ----
 
-Alternative download and install method / how-to
+## Alternative download and install method / how-to
 
 ```
 
