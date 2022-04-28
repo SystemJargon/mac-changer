@@ -14,6 +14,11 @@ Not that I use Disney Circle, but I am currently writing a paper on DNS with sec
 
 ## How to use it
 
+Show MAC address
+```
+macchanger -s
+```
+
 Set Random MAC address
  
 ```
@@ -22,13 +27,20 @@ macchanger -r wlan0
 ifconfig wlan0 up
 ```
 
+Set random vendor MAC of the same kind
+```
+ifconfig wlan0 down
+macchanger -ab wlan0 
+ifconfig wlan0 up
+```
 Reset to original, permanent hardware MAC
 
 ```
 ifconfig wlan0 down
-macchanger -r wlan0 
+macchanger -p wlan0 
 ifconfig wlan0 up
 ```
+
 
 
 
