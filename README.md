@@ -6,7 +6,7 @@ Reference to the tool used in GNU / Unix to manipulate MAC addresses.
 GNU MAC Changer is an utility that makes the maniputation of MAC
 addresses of network interfaces easier.
 
-I also made this in light of seeing "square" which I forked [here](https://github.com/lwsnz/square) - this maybe a way easier method. 
+I also made this in light of seeing square [here](https://github.com/EmreTech/square) and [here](https://github.com/NoahCardoza/square), this maybe a way easier method. 
 
 Not that I use Disney Circle, but I am currently writing a paper on DNS with security as a highlight of sorts.
 
